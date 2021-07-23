@@ -213,6 +213,7 @@ int main()
 		phi = 200 * (sophut - 200) + 400 * (sophut - 50) + 600 * 50;
 	}
 	tongchiphi = phi + fixedCost;
-	cout << "Chi phi: " << tongchiphi;
+	cout << "Chi phi: " << tongchiphi; \
+		cout << "Test";
 }
 
