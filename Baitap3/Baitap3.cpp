@@ -196,7 +196,7 @@ int main()
 	400 đồng cho mỗi phút gọi của 150 phút tiếp theo.
 
 	200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.
-	*/
+	
 	int fixedCost = 25000;
 	int sophut;
 	int tongchiphi, phi;
@@ -214,6 +214,35 @@ int main()
 	}
 	tongchiphi = phi + fixedCost;
 	cout << "Chi phi: " << tongchiphi; 
+	*/
+	//Bài tập
+	/*
+	Giả sử bạn là kế toán cho một công ty. Bạn cần viết một chương trình C++ để nhập lương nhân viên, 
+	tính thuế thu nhập và lương ròng (số tiền lương thực sự mà nhân viên đó nhận được). 
+	Với các thông số sau (mình chỉ đưa ra các con số này cho dễ tính toán):
 
+	30% thuế thu nhập nếu lương là 15 triệu
+
+	20% thuế thu nhập nếu lương từ 7 đến 15 triệu
+
+	10% thuế thu nhập nếu lương dưới 7 triệu
+	*/
+	double luongnv, luongrongnv;
+	cout << "Tinh luong nhan vien" << endl;
+	cout << "Nhap luong nhan vien: ", cin >> luongnv;
+	if (luongnv == 15) {
+		//Thuế 30%
+		luongrongnv = luongnv - ((30.0 / 100) * luongnv);
+	}
+	else if (luongnv < 7) {
+		//Thuế 10%
+		luongrongnv = luongnv - ((10.0 / 100) * luongnv);
+	}
+	else
+	{
+		//Thuế 20%
+		luongrongnv = luongnv - ((20.0 / 100)) * luongnv;
+	}
+	cout << "Luong rong nhan vien: " << luongrongnv;
 }
 
