@@ -214,6 +214,5 @@ int main()
 	}
 	tongchiphi = phi + fixedCost;
 	cout << "Chi phi: " << tongchiphi;
-	cout << "Test";
 }
 
