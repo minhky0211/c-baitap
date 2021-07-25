@@ -130,7 +130,7 @@ int main()
 	Nếu b2-4ac là âm, thì phương trình vô nghiệm.
 
 	Nếu không, phương trình có hai nghiệm.
-	
+	*/
 	double a, b, c, delta, x1, x2;
 	cout << "Giai phuong trinh bat 2 [ax2 + bx + c = 0]" << endl;
 	cout << "Nhap 3 so theo thu tu a,b,c: " << endl, cin >> a >> b >> c;
@@ -150,7 +150,7 @@ int main()
 		cout << "X1= " << x1 << endl;
 		cout << "X2= " << x2 << endl;
 	}
-	*/
+	
 	//Bài tập
 	/*
 	Cửa hàng của bạn nhận gửi bán sản phẩm cho một công ty khác và sau mỗi tháng bạn 
@@ -226,7 +226,7 @@ int main()
 	20% thuế thu nhập nếu lương từ 7 đến 15 triệu
 
 	10% thuế thu nhập nếu lương dưới 7 triệu
-	*/
+	
 	double luongnv, luongrongnv;
 	cout << "Tinh luong nhan vien" << endl;
 	cout << "Nhap luong nhan vien: ", cin >> luongnv;
@@ -244,5 +244,6 @@ int main()
 		luongrongnv = luongnv - ((20.0 / 100)) * luongnv;
 	}
 	cout << "Luong rong nhan vien: " << luongrongnv;
+	*/
 }
 
