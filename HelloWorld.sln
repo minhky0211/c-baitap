@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baitap03", "Baitap3\Baitap3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baitap04", "Baitap04\Baitap04.vcxproj", "{DF52AA90-F850-4250-AE45-D65B46C93C0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASCII", "ASCII\ASCII.vcxproj", "{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{DF52AA90-F850-4250-AE45-D65B46C93C0D}.Release|x64.Build.0 = Release|x64
 		{DF52AA90-F850-4250-AE45-D65B46C93C0D}.Release|x86.ActiveCfg = Release|Win32
 		{DF52AA90-F850-4250-AE45-D65B46C93C0D}.Release|x86.Build.0 = Release|Win32
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Debug|x64.ActiveCfg = Debug|x64
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Debug|x64.Build.0 = Debug|x64
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Debug|x86.ActiveCfg = Debug|Win32
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Debug|x86.Build.0 = Debug|Win32
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Release|x64.ActiveCfg = Release|x64
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Release|x64.Build.0 = Release|x64
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Release|x86.ActiveCfg = Release|Win32
+		{82F7F8F9-D2A1-4BAB-80B1-CF3325875AB2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
