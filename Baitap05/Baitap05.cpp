@@ -119,6 +119,7 @@ int main()
     */
     //Bài 9
     //Nhập số nguyên dương n bất kỳ, viết chương trình in n phần tử đầu tiên của dãy Fibonacci.
+    /*
     int n;
     cout << "Nhap so nguyen duong n: ", cin >> n;
     if (n == 0)
@@ -145,6 +146,20 @@ int main()
     {
         cout << "Error";
     }
+    */
+    //Bài 10
+    //Nhập số nguyên dương x bất kỳ. Viết chương trình tính giai thừa của x.
+    /*
+    * 5! = 5 * 4 * 3 * 2 * 1
+    * n! = n * (n-i)
+    */
+    int n, result=1;
+    cout << "Nhap so n nguyen duong: ", cin >> n;
+    for (int i = 1; i < n; i++)
+    {
+        result *= (n - i);
+    }
+    cout << "Giai thua: " << result*n;
 
 }
 
