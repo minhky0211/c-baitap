@@ -104,7 +104,7 @@ int main()
     B2 chạy vòng for 
     Trong vòng for lấy i chia cho từ 1 đến i
     Nếu i chia được == 2 lần thì xuất ra i
-    */
+    
     int n3;
     cout << "Nhap so n: ", cin >> n3;
     for (int i9 = 2; i9 <=n3; i9++)
@@ -116,5 +116,35 @@ int main()
         }
         if (count <= 2) cout << i9 << endl;
     }
+    */
+    //Bài 9
+    //Nhập số nguyên dương n bất kỳ, viết chương trình in n phần tử đầu tiên của dãy Fibonacci.
+    int n;
+    cout << "Nhap so nguyen duong n: ", cin >> n;
+    if (n == 0)
+    {
+        cout << "0";
+    }
+    else if(n==1)
+    {
+        cout << "1";
+    }
+    else if(n>=2)
+    {
+        //F0 = (n-1), F1 = (n-2)
+        long long fn, F0=0, F1=1;
+        for (int i = 2; i <= n; i++)
+        {
+            fn = F0 + F1;
+            F0 = F1;
+            F1 = fn;
+        }
+        cout << fn << endl;
+    }
+    else
+    {
+        cout << "Error";
+    }
+
 }
 
