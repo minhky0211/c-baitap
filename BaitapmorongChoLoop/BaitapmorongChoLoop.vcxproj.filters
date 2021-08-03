@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BaitapMorong.cpp">
+    <ClCompile Include="BaitapmorongChoLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
