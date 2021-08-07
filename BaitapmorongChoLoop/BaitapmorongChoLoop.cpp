@@ -22,13 +22,14 @@ int main()
     cout << "Sum: " << result;
     */
     //Vẽ tam giác có đường chéo chính (i=j)
+    /*
     int len;
     cout << "Nhap do dai tam giac", cin >> len;
     for (int i = 0; i < len; i++)
     {
         for (int j= 0; j <= i; j++)
         {
-            if (i==j || j==0 || i==len-1)
+            if (i==j || j==0 || i == len - 1)
             {
                 cout << "*";
             }
@@ -40,5 +41,18 @@ int main()
         }
         cout << endl;
     }
+    */
+    //Tính dãy số
+    int n, x, mau = 1;
+    long ketqua=0;
+    cout << "Nhap n: ", cin >> n;
+    cout << "Nhap x: ", cin >> x;
+    for (int i = 1; i <= n; i++)
+    {
+        double tu = pow(x, i);
+        mau *= i;
+        ketqua += (tu / mau);
+    }
+    cout << ketqua;
 }
 
