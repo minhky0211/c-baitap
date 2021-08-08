@@ -43,6 +43,7 @@ int main()
     }
     */
     //Tính dãy số
+    /*
     int n, x, mau = 1;
     long ketqua=0;
     cout << "Nhap n: ", cin >> n;
@@ -54,5 +55,32 @@ int main()
         ketqua += (tu / mau);
     }
     cout << ketqua;
+    */
+    //Kiểm tra số n nguyên dương nhập vào có phải số hoàn thiện hay không
+    /*
+    * Một số n nguyên dương là hoàn thiện khi
+    * Các ước của số trừ chính n có tổng bằng n
+    * ước của 6 là 1 2 3
+    * tổng 1 + 2 + 3 = 6 thì n là số hoàn thiện
+    */
+    int n;
+    int tong = 0;
+
+    cout << "Nhap so n nguyen duong: ", cin >> n;
+    for (int i = 1; i < n; i++)
+    {
+        if (n%i==0)
+        {
+            tong += i;
+        }
+    }
+    if (tong==n)
+    {
+        cout << "day la so hoan thien";
+    }
+    else {
+        cout << "day khong phai la so hoan thien";
+    }
+
 }
 
