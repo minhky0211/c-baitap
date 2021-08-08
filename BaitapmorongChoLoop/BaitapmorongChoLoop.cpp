@@ -62,7 +62,6 @@ int main()
     * Các ước của số trừ chính n có tổng bằng n
     * ước của 6 là 1 2 3
     * tổng 1 + 2 + 3 = 6 thì n là số hoàn thiện
-    */
     int n;
     int tong = 0;
 
@@ -81,6 +80,16 @@ int main()
     else {
         cout << "day khong phai la so hoan thien";
     }
-
+    */
+    //Tính tổng các chữ số trong 1 số
+    //123456 -> 1 + 2 + 3 + 4 + 5 + 6
+    int n, tong = 0;
+    cout << "Nhap so n nguyen duong: ", cin >> n;
+    while (n>0) {
+        int temp = n % 10;
+        tong += temp;
+        n /= 10;
+    }
+    cout << tong;
 }
 
