@@ -83,6 +83,7 @@ int main()
     */
     //Tính tổng các chữ số trong 1 số
     //123456 -> 1 + 2 + 3 + 4 + 5 + 6
+    /*
     int n, tong = 0;
     cout << "Nhap so n nguyen duong: ", cin >> n;
     while (n>0) {
@@ -91,5 +92,24 @@ int main()
         n /= 10;
     }
     cout << tong;
+    */
+    //Vẽ hình nâng cao
+    int len;
+    cout << "Nhap chieu dai: ", cin >> len;
+    for (int i = 0; i < len; i++)
+    {
+        for (int g = 0; g < len; g++)
+        {
+            if ((i <= len/2 && g==0) || (g==len-1&&i>=len/2) || (i==len/2) || i==g)
+            {
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
 }
 
