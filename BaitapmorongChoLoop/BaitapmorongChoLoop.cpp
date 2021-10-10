@@ -94,6 +94,7 @@ int main()
     cout << tong;
     */
     //Vẽ hình nâng cao
+    /*
     int len;
     cout << "Nhap chieu dai: ", cin >> len;
     for (int i = 0; i < len; i++)
@@ -111,5 +112,16 @@ int main()
         }
         cout << endl;
     }
+    */
+    int n, SumN;
+    double Total=0;
+    SumN = 0;
+    cout << "Nhap so nguyen n: ", cin >> n;
+    for (int i = 1; i <= n; i++)
+    {
+        SumN += i;
+        Total += ((double)1/SumN);
+    }
+    cout << Total;
 }
 
